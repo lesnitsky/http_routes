@@ -1,8 +1,7 @@
 name: http_routes
 description: Utility for matching http requests with routes
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0+2
+homepage: https://github.com/lesnitsky/http_routes
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
