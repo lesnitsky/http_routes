@@ -1,0 +1,5 @@
+name: http_routes_example
+
+dependencies:
+  http_routes:
+    path: ../
