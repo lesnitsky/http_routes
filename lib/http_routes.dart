@@ -19,7 +19,11 @@ class Route {
     return this._params[_paramIndices[param]];
   }
 
-  String toString() => '$method($uriPath)';
+  String toString() => '$method $uriPath';
+  Route fromString(String str) {
+    final chunks = str.split(' ');
+    return Route(chunks[0], chunks[1]);
+  }
 
   bool operator ==(dynamic other) {
     if (!(other is Route)) {
