@@ -19,6 +19,8 @@ class Route {
     return this._params[_paramIndices[param]];
   }
 
+  String toString() => '$method($uriPath)';
+
   bool operator ==(dynamic other) {
     if (!(other is Route)) {
       return false;
