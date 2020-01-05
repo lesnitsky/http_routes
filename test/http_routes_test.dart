@@ -32,4 +32,10 @@ void main() {
     expect(GET('/todos/:id'), route);
     expect(route.param('id'), '123');
   });
+
+  test('works when trying to get route param if no params actually passed', () {
+    final route = Route('GET', '/todos');
+    expect(GET('/todos'), route);
+    expect(route.param('someparam'), null);
+  });
 }
