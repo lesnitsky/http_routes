@@ -3,7 +3,7 @@
 Utility to match http requests with routes
 
 [![GitHub stars](https://img.shields.io/github/stars/lesnitsky/http_routes.svg?style=social)](https://github.com/lesnitsky/http_routes)
-[![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_a)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_dev.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_dev)
 
 ## Usage
 
@@ -35,4 +35,4 @@ void main() async {
 MIT
 
 [![GitHub stars](https://img.shields.io/github/stars/lesnitsky/http_routes.svg?style=social)](https://github.com/lesnitsky/http_routes)
-[![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_a)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_dev.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_dev)
